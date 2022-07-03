@@ -16,6 +16,7 @@
 function add(a, b) {
   return a + b;
 }
+exports.add = add;
 
 // main.js
 // python import랑 비슷한듯? : 모듈을 로드해서 객체 하나를 리턴
